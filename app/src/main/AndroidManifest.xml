@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priya.finalprojectsdp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name="com.example.priya.E_ShopWithvoiceAssistance.setpermission"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.FrontPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.LoginActivity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.MainActivity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SignupActivity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.Database" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.Deatils" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.PostActivity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.Home" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.AdminPage" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.ProductList" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.ProductDetail" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.Cart" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.OrderStatus" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.admin_product_list" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.add_new_product" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.PaymentActivity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.aaaa" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.bbbb" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.bkashPayment" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.CompleteTransaction" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.priorityData1" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechSignUpActivity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechLoginActivity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.check" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechCheck" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechHome" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechCart" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechProductList" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechOrderStatus" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechProductDetail" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.AdminOrderStatus" />
+
+        <service
+            android:name="service.ReceiveMessage"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="service.PaymentService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="service.TransactionService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.RegisterDetails" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.UserOrderAdmin" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechPaymentacticity" />
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.SpeechCompleteTransaction" />
+
+        <service
+            android:name="service.BkashService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.example.priya.E_ShopWithvoiceAssistance.payment2"></activity>
+    </application>
+
+</manifest>

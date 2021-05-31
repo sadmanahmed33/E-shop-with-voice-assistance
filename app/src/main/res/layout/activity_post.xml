@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priya.E_ShopWithvoiceAssistance.PostActivity">
+
+    <ImageButton
+        android:id="@+id/image_select"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/black"
+        android:contentDescription="@string/i"
+
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_add_white_24dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/tittle_field"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="148dp"
+        android:layout_marginLeft="0dp"
+        android:ems="10"
+        android:hint="@string/post_tittle"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:elevation="11dp"
+        android:text="@string/add_item" />
+</RelativeLayout>

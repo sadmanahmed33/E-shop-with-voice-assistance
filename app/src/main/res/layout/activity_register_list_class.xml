@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.example.priya.E_ShopWithvoiceAssistance.RegisterListClass">
+    <TextView
+        android:id="@+id/user_info_number"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="account_no"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:id="@+id/user_info_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="email"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:singleLine="true"
+        />
+
+</LinearLayout>
